@@ -1,1 +1,1 @@
-# AI-Valley-Hackathon
+# QueryFy
