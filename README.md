@@ -22,6 +22,16 @@ With QueryFy, you can:
 
 ---
 
+## 💡 Sample Questions to Try
+
+- List the top 5 most profitable companies in the Oil & Gas industry.
+- Which companies are based in Tokyo and have over 100,000 employees?
+- Who is the CEO of Apple?
+- Show average sales for companies founded before 1800.
+- Search the web for what Ericsson does.
+
+---
+
 ## 📦 Tech Stack
 
 | Layer | Tech |
