@@ -1,4 +1,4 @@
-# 🚀 QueryFy: Chat with Your Data
+# QueryFy: Chat with Your Data
 
 > “Your voice. Your data. One question away.”  
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 What Can It Do?
+## What Can It Do?
 
 With QueryFy, you can:
 
