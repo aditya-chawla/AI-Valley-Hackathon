@@ -22,7 +22,7 @@ With QueryFy, you can:
 
 ---
 
-## 💡 Sample Questions to Try
+## Sample Questions to Try
 
 - List the top 5 most profitable companies in the Oil & Gas industry.
 - Which companies are based in Tokyo and have over 100,000 employees?
@@ -32,7 +32,7 @@ With QueryFy, you can:
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
 | Layer | Tech |
 |-------|------|
@@ -44,7 +44,7 @@ With QueryFy, you can:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 QueryFy comes pre-loaded with the *Forbes Global 2000 – 2024* dataset:
 - Fields: Name, Rank, Sales, Profit, Assets, Market Value, Industry, Headquarters, CEO, etc.
@@ -52,13 +52,13 @@ QueryFy comes pre-loaded with the *Forbes Global 2000 – 2024* dataset:
 
 ---
 
-## 🛠 How to Run
+## How to Run
 
-### 🔗 Prerequisites:
+### Prerequisites:
 - Python 3.8+
 - A Together AI API Key (Free: https://www.together.ai/playground)
 
-### ⚙ Installation
+### Installation
 
 ```bash
 git clone https://github.com/your-username/queryfy.git
