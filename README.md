@@ -53,6 +53,7 @@ The *Forbes Global 2000 – 2024* dataset:
 
 ### GUI Interaction
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4556514f-9ddb-417a-81ca-e47cddbed45c" />
+
 - Use the radio buttons to chose the LLM of choice : Mistral or Gemma 
 - To display cached Queries click the "Cached Questions" drop down and select query of choice
 - To run a custom query keep the "Cached Questions" drop down to "--Select--" and type your query in the "type your own question" chatbox
