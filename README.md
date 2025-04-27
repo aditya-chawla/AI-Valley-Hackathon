@@ -1,6 +1,6 @@
 # QueryFy: Virtual Assistant to explore the worlds largest companies
 
-*QueryFy* is an AI-powered data assistant that transforms natural language questions into SQL queries over the *Forbes Global 2000 (2024)* dataset. Built for analysts, journalists, and anyone who wants to explore the dataset but doesn’t want to or jnow how to write SQL queries.
+*QueryFy* is an AI-powered data assistant that transforms natural language questions into SQL queries over the *Forbes Global 2000 (2024)* dataset. Built for analysts, journalists, and anyone who wants to explore the dataset but doesn’t want to or know how to write SQL queries.
 
 ---
 
