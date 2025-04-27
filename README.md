@@ -4,32 +4,23 @@
 
 ---
 
-## Features?
+## Features
 
 - Ask questions like:  
   “Show top 5 companies by market value in Japan”  
   “Which financial firms have over 200,000 employees?”
-- Let powerful LLMs generate accurate SQL queries on the fly
-- See real-time results directly from a live SQLite database
-- Ask factual questions (e.g. “Who is the CEO of Ericsson?”) with DuckDuckGo integration
 - Choose between models like *Mistral-7B* and *Gemma-27B*
-- Stay safe with built-in prompt injection detection
-
----
-
-## Sample Questions to Try
-
-- List the top 5 most profitable companies in the Oil & Gas industry.
-- Which companies are based in Tokyo and have over 100,000 employees?
-- Who is the CEO of Apple?
-- Show average sales for companies founded before 1800.
-- Search the web for what Ericsson does.
+- LLMs generate accurate SQL queries in real-time.
+- Prompt caching for reduced latency
+- Ask factual questions with DuckDuckGo search integration.
+- Built-in prompt injection detection.
+- Used prompt engineering techniques like meta prompting, few shot prompting, Self-Reflection Prompting and role prompting for better results.
 
 ---
 
 ## Tools
 
-| Layer | Tech |
+| Layer | Tool |
 |-------|------|
 | LLM | LangChain + Together AI |
 | UI | Gradio |
@@ -41,9 +32,9 @@
 
 ## Dataset
 
-QueryFy comes pre-loaded with the *Forbes Global 2000 – 2024* dataset:
-- Fields: Name, Rank, Sales, Profit, Assets, Market Value, Industry, Headquarters, CEO, etc.
-- All financials are scaled up to raw values (e.g. billions to actual amounts)
+The *Forbes Global 2000 – 2024* dataset:
+- Fields: Rank, Name, Sales, Profit, Assets, Market Value, Industry, Founded, Headquarters, Country, CEO, Employees.
+- Financial metrics (Sales , Profit , Assets , Market Value ) are in billions of dollars.
 
 ---
 
@@ -59,9 +50,19 @@ QueryFy comes pre-loaded with the *Forbes Global 2000 – 2024* dataset:
 - Update the path to the dataset in this line "csv_file = \"/content/drive/MyDrive/Largest-Companies.csv\"\n"
 - Update your Together AI API Key in this line " together_api_key = 'Enter_your_key_here'"
 - Click runtime -> run all
+
 ### GUI Interaction
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/4556514f-9ddb-417a-81ca-e47cddbed45c" />
 - Use the radio buttons to chose the LLM of choice : Mistral or Gemma 
 - To display cached Queries click the "Cached Questions" drop down and select query of choice
 - To run a custom query keep the "Cached Questions" drop down to "--Select--" and type your query in the "type your own question" chatbox
 - Click Submit and view the output query and result in the "Assistant Response" section. 
+---
+
+## Sample Questions to Try
+
+- List the top 5 most profitable companies in the Oil & Gas industry.
+- Which companies are based in Tokyo and have over 100,000 employees?
+- Who is the CEO of Apple?
+- Show average sales for companies founded before 1800.
+- Search the web for what Ericsson does.
