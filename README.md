@@ -24,7 +24,7 @@
 |-------|------|
 | LLM | LangChain + Together AI |
 | UI | Gradio |
-| DB | SQLite (with Forbes CSV loaded) |
+| DB | SQLite |
 | External Search | DuckDuckGo Search API |
 | Dev Tools | Python, Pandas, re, sqlite3 |
 
