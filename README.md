@@ -9,7 +9,7 @@
 - Ask questions like:  
   “Show top 5 companies by market value in Japan”  
   “Which financial firms have over 200,000 employees?”
-- Choose between models like *Mistral-7B* and *Gemma-27B*
+- Choose between models: *Mistral-7B* and *Gemma-27B*
 - LLMs generate accurate SQL queries in real-time.
 - Prompt caching for reduced latency
 - Ask factual questions with DuckDuckGo search integration.
